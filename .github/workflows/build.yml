@@ -1,5 +1,7 @@
 name: navicat-keygen builds
-on: [push]
+on: 
+  push:
+  workflow_dispatch:
 
 jobs:
   navicat-keygen-x86:
